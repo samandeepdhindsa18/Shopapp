@@ -1,0 +1,37 @@
+.steps text {
+  color: darksalmon;
+}
+.steps desc {
+  color: mistyrose;
+}
+
+.ui.steps .step.active {
+  background-color: lightgrey;
+  color: #fff;
+  font-weight: 700;
+}
+
+.ui.cart {
+  background-color: mistyrose;
+  align-items: center;
+  margin: 200px;
+  width: 920px;
+  height: 115px;
+}
+
+.first {
+  height: 170px;
+}
+
+.ui.button {
+  background-color: lightsteelblue;
+  align-items: left;
+}
+
+.right.divider {
+  width: 350px;
+}
+
+.ui.input {
+  font-size: 12px;
+}

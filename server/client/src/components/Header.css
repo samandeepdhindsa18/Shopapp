@@ -1,0 +1,90 @@
+.ui {
+  background-color: mistyrose;
+}
+.menu {
+  background-color: mistyrose;
+}
+.grid {
+  background-color: mistyrose;
+}
+.bar {
+  background-image: linear-gradient(
+    45deg,
+    #458f99,
+    #18a1d871,
+    thistle,
+    #eb676780
+  );
+  width: 400px;
+  height: 80px;
+}
+
+.active h3 {
+  color: darkslategrey;
+}
+
+.center h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: palegreen;
+  animation: 9.9s shake infinite alternate;
+  background-image: linear-gradient(
+    45deg,
+    #458f99,
+    #18a1d871,
+    thistle,
+    #eb676780
+  );
+}
+
+.center {
+  background-image: linear-gradient(
+    45deg,
+    #ca65659c,
+    peachpuff,
+    #0c99ebab,
+    pink
+  );
+  width: 550px;
+}
+
+.right h3 {
+  color: thistle;
+  animation: color-change 3s infinite;
+}
+
+@keyframes color-change {
+  0% {
+    color: yellowgreen;
+  }
+  30% {
+    color: aqua;
+  }
+  70% {
+    color: orangered;
+  }
+  100% {
+    color: yellow;
+  }
+}
+
+.content h4 {
+  color: darkslategrey;
+}
+
+.content font {
+  color: darkslategrey;
+  text-align: right;
+  font-size: large;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.user-color {
+  color: blanchedalmond;
+}
+.own-color {
+  color: lavender;
+}
+
+.text {
+  color: #458f99;
+}
